@@ -9,4 +9,5 @@
 		<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 	</ul>
 	<a href="contact.jsp">Contact Us</a>
+	
 </div>

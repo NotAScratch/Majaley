@@ -7,6 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+    <table>
+        <tr>
+            <td><img src="path_to_image.jpg" alt="Event Image"></td>
+        </tr>
+        <tr>
+            <td>Event Name</td>
+        </tr>
+        <tr>
+            <td>Number of Attendees</td>
+        </tr>
+    </table>
 </body>
 </html>

@@ -12,7 +12,7 @@
         Welcome, ${user.name}!
     </p>
     <p>
-        <a href="<c:url value="/logout" />">Logout</a>
+        <a>Logout</a>
     </p>
 </body>
 </html>
