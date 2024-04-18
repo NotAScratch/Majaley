@@ -11,11 +11,14 @@ String contextPath = request.getContextPath();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Majaley</title>
     <link rel="stylesheet" type="text/css"
-	href="<%=contextPath %>/stylesheets/footer.css" /> 
-
+	href="<%=contextPath%>/stylesheets/header.css" />
+<link rel="stylesheet" type="text/css"
+	href="<%=contextPath%>/stylesheets/footer.css" />
+<link rel="stylesheet" type="text/css"
+	href="<%=contextPath%>/stylesheets/home.css" />
 </head>
 <body>
-	<%@ include file ="pages/header.jsp" %>
+	<%@ include file ="pages/header.jsp"  %>
 	
 	<%@ include file ="pages/footer.jsp" %>
 

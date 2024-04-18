@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+    <h1>Profile</h1>
+    <p>
+        Welcome, ${user.name}!
+    </p>
+    <p>
+        <a href="<c:url value="/logout" />">Logout</a>
+    </p>
 </body>
 </html>

@@ -14,10 +14,5 @@
         <div class="control control-3 active-btn">
             <i class="fas fa-briefcase"></i>
         </div>
-        <div class="control control-3 active-btn">
-            <i class="far fa-newspaper"></i>
-        </div>
-        <div class="control control-4 active-btn">
-            <i class="fas fa-envelope-open"></i>
-        </div>              
+        
     </div>
