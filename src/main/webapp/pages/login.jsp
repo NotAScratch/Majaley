@@ -1,51 +1,37 @@
 <%@page import="util.StringUtils"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    
+	pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/stylesheets/login.css" />
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/stylesheets/login.css" />
 
 </head>
 <body>
-<div class="login-box">
-		<h2>Login</h2>
-		<form action="../login" method="post">
-			<div class="row">
-				<div class="col">
-					<label for="username">Username:</label> <input type="text"
-						id="username" name="username" required>
-				</div>
+	<div class="wrapper">
+		<form action="">
+			<h1>Majaley</h1>
+			<div class="input-box">
+				<input type="text" placeholder="Username" required> <i
+					class='bx bxs-user'></i>
 			</div>
-			<div class="row">
-				<div class="col">
-					<label for="password">Password:</label> <input type="password"
-						id="password" name="password" required>
-				</div>
+			<div class="input-box">
+				<input type="password" placeholder="Password" required> <i
+					class='bx bxs-lock-alt'></i>
 			</div>
-			<button type="submit" class="login-button">Login</button>
-
-			<%
-			String errMsg = (String) request.getAttribute(StringUtils.MESSAGE_ERROR);
-			String successMsg = (String) request.getAttribute(StringUtils.MESSAGE_SUCCESS);
-
-			if (errMsg != null) {
-				// print
-				%>
-				<h2 class="success-msg"><% out.println(errMsg); %></h2>
-				<%
-			}
-
-			if (successMsg != null) {
-				// print
-				out.println(successMsg);
-			}
-			%>
+			<button type="submit" class="btn">Login</button>
+			<div class="register-link">
+				<p>
+					Dont have an account? <a href="../pages/register.jsp">Register</a>
+				</p>
+			</div>
 		</form>
 	</div>
+	
 </body>
 </html>

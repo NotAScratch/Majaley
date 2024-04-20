@@ -5,14 +5,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/stylesheets/profile.css" />
+
 </head>
 <body>
+    <%@include file="header.jsp"%>
     <h1>Profile</h1>
-    <p>
-        Welcome, ${user.name}!
-    </p>
-    <p>
-        <a>Logout</a>
-    </p>
+    
 </body>
 </html>

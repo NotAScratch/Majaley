@@ -1,252 +1,70 @@
 @charset "ISO-8859-1";
 
 /* CSS Document */
-#events {
-    width: 100%;
-    height: 100%;
-    background-color: #f0f0f0;
-    padding: 10px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
-#events h1 {
-    font-size: 24px;
+/* Style for event names */
+.event-name {
+    font-weight: bold;
     color: #333;
-    margin-bottom: 10px;
 }
 
-#events h2 {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events h3 {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events h4 {
+/* Style for attendee count */
+.attendee-count {
     font-size: 14px;
-    color: #333;
-    margin-bottom: 10px;
+    color: #777;
 }
 
-#events h5 {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
+/* Style for event date */
+.event-date {
+    font-size: 14px;
+    color: #777;
 }
 
-#events h6 {
-    font-size: 10px;
-    color: #333;
-    margin-bottom: 10px;
+/* Style for event location */  
+
+
+/* Style for event description */
+.event-description {
+    font-size: 14px;
+    color: #777;
 }
 
-#events p {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events a {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events ul {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events li {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events table {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events th {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}   
-
-#events td {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events input {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events select {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events textarea {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events button {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events img {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events form {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}       
-
-#events .event {
+/* Style for event image */
+.event-image {
     width: 100%;
-    height: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+/* Style for event card */
+
+.event-card {
     background-color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
-#events .event h1 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 10px;
+/* Style for event card header */
+
+.event-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-#events .event h2 {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 10px;
-}       
+/* Style for event card body */
 
-#events .event h3 {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 10px;
+.event-card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-#events .event h4 {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event h5 {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event h6 {
-    font-size: 10px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event p {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event a {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event ul {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event li {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event table {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event th {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event td {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event input {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event select {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event textarea {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event button {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event img {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-#events .event form {
-    font-size: 12px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-
-
-/* Path: src/main/webapp/stylesheets/footer.css */
-
-
-
